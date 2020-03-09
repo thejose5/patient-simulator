@@ -11,8 +11,11 @@ _Steps to run the Simscape Model_
 4. Once the workspace variables have been loaded, rename the variables P_EQNs and tym to P_EQN and ty respectively. Now write the following code in the MATLAB console:
 
 -> global P_EQNs tym
+
 -> P_EQNs = P_EQN;
+
 -> tym = ty;
+
 -> clear P_EQN ty
 
 5. The last variables that need to be loaded into the workspace are the Kp and Kd values for the controller (these are taken to be same for all legs). I defined these variables in the end so you’ll have to manually define them. The values I ran the current simulation with are Kp = 0.1 and Kd = 10.
