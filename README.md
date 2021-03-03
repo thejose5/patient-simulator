@@ -8,7 +8,7 @@ This project implements the simulation of a hardware platform that mimics the mo
 
 ## Data Acquisition and Processing
 Free breathing motion data was used to obtain xyz position data for the platform simulation. After processing and trimming the data as needed, 480 points were obtained for a sampling time of 0.25s. The following graph shows the plotted xyz points for the data.
-![data](https://user-images.githubusercontent.com/50763889/109881159-cdaa2680-7c45-11eb-85dc-429375bad51c.PNG)
+![data](https://user-images.githubusercontent.com/50763889/109881159-cdaa2680-7c45-11eb-85dc-429375bad51c.PNG width=100 height=119)
 
 
 ## Inverse Kinematics
