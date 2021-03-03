@@ -5,7 +5,7 @@ This project implements the simulation of a hardware platform that mimics the mo
 
 ## Control Workflow
 [control_workflow](https://user-images.githubusercontent.com/50763889/109879822-1cef5780-7c44-11eb-998d-6a4518496200.PNG)
-<img src="https://user-images.githubusercontent.com/50763889/109879822-1cef5780-7c44-11eb-998d-6a4518496200.PNG" width="600" height="400" />
+<img src="https://user-images.githubusercontent.com/50763889/109879822-1cef5780-7c44-11eb-998d-6a4518496200.PNG" width="800" height="400" />
 
 ## Data Acquisition and Processing
 Free breathing motion data was used to obtain xyz position data for the platform simulation. After processing and trimming the data as needed, 480 points were obtained for a sampling time of 0.25s. The following graph shows the plotted xyz points for the data.  
