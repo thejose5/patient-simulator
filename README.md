@@ -7,7 +7,9 @@ This project implements the simulation of a hardware platform that mimics the mo
 <img src="https://user-images.githubusercontent.com/50763889/109879822-1cef5780-7c44-11eb-998d-6a4518496200.PNG" width="800" height="400" />
 
 ## Data Acquisition and Processing
-Free breathing motion data was used to obtain xyz position data for the platform simulation. After processing and trimming the data as needed, 480 points were obtained for a sampling time of 0.25s. The following graph shows the plotted xyz points for the data.  
+Free breathing motion data was used to obtain xyz position data for the platform simulation. After processing and trimming the data as needed, 480 points were obtained for a sampling time of 0.25s. The following graph shows the plotted xyz points for the data.
+
+
 <img src="https://user-images.githubusercontent.com/50763889/109881159-cdaa2680-7c45-11eb-85dc-429375bad51c.PNG" width="400" height="400" />
 
 
