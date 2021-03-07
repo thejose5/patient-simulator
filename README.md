@@ -14,6 +14,13 @@ Free breathing motion data was used to obtain xyz position data for the platform
 
 
 ## Inverse Kinematics
+The inverse Kinematics to find the required joint angle from the target platform position and orientation is obtained in 2 steps:  
+1. Finding Virtual Leg Length, i.e. finding the distance from each lower attachment point to each corresponding upper attachment point. The equation for this is obtained from the following paper:   *Guo, H.B. and Li, H.R., 2006. Dynamic analysis and simulation of a six degree of freedom Stewart platform manipulator. Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, 220(1), pp.61-72.*
+<img src="https://user-images.githubusercontent.com/50763889/110243915-739daf80-7f2a-11eb-9da1-314b145d40a2.PNG" width="400" height="400" />
+
+2. Finding Joint angles from the virtual leg length. The equation for this step was obtained from the following paper:  *Filip Szufnarowski. Stewart platform with fixed rotary
+actuators: a low cost design study. Tech. rep.*
+<img src="https://user-images.githubusercontent.com/50763889/110244059-f7579c00-7f2a-11eb-9435-046199959ad4.PNG" width="800" height="400" />
 
 ## Trajectory Planning
 
