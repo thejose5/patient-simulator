@@ -20,9 +20,18 @@ The inverse Kinematics to find the required joint angle from the target platform
 <img src="https://user-images.githubusercontent.com/50763889/110243915-739daf80-7f2a-11eb-9da1-314b145d40a2.PNG" width="600" height="400" />
 
 2. Finding Joint angles from the virtual leg length. The equation for this step was obtained from the following paper:  
-*Filip Szufnarowski. Stewart platform with fixed rotary actuators: a low cost design study. Tech. rep.*
+*Szufnarowski, F., 2013. Stewart platform with fixed rotary actuators: a low cost design study. Advances in medical Robotics, (4).*
 <img src="https://user-images.githubusercontent.com/50763889/110244059-f7579c00-7f2a-11eb-9435-046199959ad4.PNG" width="800" height="400" />
 
 ## Trajectory Planning
+Trajectory Planning was implemented by interpolating the joint angles found for each data point, for each joint, using a third degree polynomial to ensure smooth trajectory. The following path was obtained for each joint after the trajectory planning process:
+<img src="https://user-images.githubusercontent.com/50763889/110244389-7bf6ea00-7f2c-11eb-8a6c-642702a3d740.PNG" width="800" height="400" />
+
+## Control
+The control system used was a simple PD controller.
 
 ## Results
+![results-pos](https://user-images.githubusercontent.com/50763889/110244524-19eab480-7f2d-11eb-87f1-e30487fcee58.PNG)
+![results-vel](https://user-images.githubusercontent.com/50763889/110244527-1d7e3b80-7f2d-11eb-8136-b766d5b37852.PNG)
+
+
